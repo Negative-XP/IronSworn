@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css"></style>
+
+
+</head>
+<body>
+    
+ <header>
+    <div>
+        <h3>Character</h3>
+        <input type="text">
+    </div>
+    <div>
+        <h3> Experience</h3>
+        <% for(let i = 0; i < 36; i++) {%>
+            <%if( i != 17){ %>
+            <input type="checkbox">
+            <%} else if( i == 17){ %>
+            <input type="checkbox">
+            <br>
+            <%}%>
+            <%}%>
+    </div>
+
+ </header>
+ <section class="bottom">
+ <section class="momentum">
+    <div>
+        <h3>Momentum</h3>
+    </div>
+    <% for(let i = 10; i > -7; i--) {%> 
+        <div class="momBox">
+            <span>+<%=i%></span>
+        </div>
+        <%}%>
+
+        <div>
+            <span>
+                MAX
+            </span>
+            <input type="number" value="10">
+        </div>
+        <div>
+            <span>
+                Reset
+            </span>
+            <input type="number" value="2">
+        </div>
+
+ </section>
+ <section class="stats"></section>
+ <section class="supply"></section>
+</section>
+   
+   
+    <script src="js/action.js"></script>
+    
+</body>
+</html>

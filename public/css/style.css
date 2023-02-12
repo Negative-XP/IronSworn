@@ -1,0 +1,59 @@
+div{
+    border: solid 1px white;
+    display: inline-block;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0%;
+    border: none;
+    margin: 1%;
+}
+
+header{
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+.momentum{
+    width: 12%;
+    color: black;
+    background-color: white;
+   
+}
+
+.stats{
+    width: 60%;
+ 
+    
+    background-color: white;
+}
+
+.supply{
+    width: 18%;
+
+    background-color: white;
+
+}
+.bottom{
+    display: flexbox;
+    justify-content: space-around;
+
+    flex-direction: row;
+    
+}
+
+
+.momBox{
+    width: 100%;
+    border: solid green 1px;
+    
+}
+
+.momBox{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
