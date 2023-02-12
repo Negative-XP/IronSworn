@@ -1,59 +1,125 @@
-div{
+div {
     border: solid 1px white;
     display: inline-block;
 }
 
-body{
+body {
     background-color: black;
     color: white;
     padding: 0%;
     border: none;
     margin: 1%;
-}
 
-header{
-    margin: 0px 0px 20px 0px;
 }
 
 
 
-.momentum{
+
+.charInfo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+}
+
+.charInfo div {
+    width: 50%;
+}
+
+
+header div {
+    width: 40%;
+
+}
+
+
+.momentum {
     width: 12%;
     color: black;
     background-color: white;
-   
+    display: flex;
+    flex-direction: column;
 }
 
-.stats{
-    width: 60%;
- 
-    
+.stats {
+    width: 70%;
+    display: flex;
+}
+
+.supply {
+    width: 12%;
+    display: flex;
     background-color: white;
-}
-
-.supply{
-    width: 18%;
-
-    background-color: white;
 
 }
-.bottom{
-    display: flexbox;
-    justify-content: space-around;
+
+.bottom {
+    display: flex;
+
 
     flex-direction: row;
-    
+
+}
+
+.bottom div {
+    width: 100%;
 }
 
 
-.momBox{
+.momBox {
     width: 100%;
     border: solid green 1px;
-    
+
 }
 
-.momBox{
+.momBox {
     font-size: 20px;
     color: black;
     text-align: center;
+}
+
+.trueStats {
+    justify-content: space-around;
+    display: flex;
+}
+
+.trueStats div {
+    width: 15%;
+    height: 15%;
+    text-align: center;
+
+}
+
+.trueStats div input {
+    height: 70%;
+    width: 70%;
+
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vow{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.vowDifficulty{
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+}
+
+.difficulty{
+    text-align: center;
+    width: auto;
+    height: 10%;
+    
 }
