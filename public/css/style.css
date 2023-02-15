@@ -1,7 +1,4 @@
-div {
-    border: solid 1px white;
-    display: inline-block;
-}
+
 
 body {
     background-color: black;
@@ -9,11 +6,12 @@ body {
     padding: 0%;
     border: none;
     margin: 1%;
-
+    text-align: center;
 }
 
-
-
+h4{
+    margin: 1%;
+}
 
 .charInfo {
     display: flex;
@@ -50,14 +48,15 @@ header div {
     width: 12%;
     display: flex;
     background-color: white;
-
+    flex-direction: column;
+    color: black;
+   
 }
 
 .bottom {
     display: flex;
 
-
-    flex-direction: row;
+    justify-content: space-between;
 
 }
 
@@ -81,18 +80,20 @@ header div {
 .trueStats {
     justify-content: space-around;
     display: flex;
+    height: 30%;
+    margin: 10px;
 }
 
 .trueStats div {
     width: 15%;
-    height: 15%;
+    height: 3em;
     text-align: center;
 
 }
 
 .trueStats div input {
-    height: 70%;
-    width: 70%;
+    height: 100%;
+    width: 60%;
 
 }
 
@@ -103,10 +104,15 @@ header div {
     flex-direction: column;
 }
 
-.vow{
+.vows{
     text-align: center;
     justify-content: center;
-    display: flex;
+
+    margin: 1% 0%;
+}
+
+.vows div{
+    margin: 1px;
 }
 
 .vowTitle{
@@ -144,4 +150,26 @@ header div {
 .conditions{
     width: 50%;
     display: flex;
+    justify-content: space-around;
+}
+
+.conditions div{
+    text-align: left;
+    width: 50%;
+ 
+}
+
+ul{
+ display: flex;
+}
+
+.banes{
+    display:inline;
+}
+
+
+.checkbox{
+    border: solid white 1px;
+    border-radius: 60%;
+    color: green;
 }
