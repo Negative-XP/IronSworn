@@ -109,6 +109,15 @@ header div {
     display: flex;
 }
 
+.vowTitle{
+    width: 70%;
+    text-align: center;
+}
+
+.vowTitle input{
+    width: 100%;
+    text-align: center;
+}
 
 .vowDifficulty{
     justify-content: space-around;
@@ -122,4 +131,17 @@ header div {
     width: auto;
     height: 10%;
     
+}
+
+.progress{
+    justify-content: center;
+    text-align: center;
+}
+
+.debilities{
+    display: flex;
+}
+.conditions{
+    width: 50%;
+    display: flex;
 }
